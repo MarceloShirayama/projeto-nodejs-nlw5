@@ -1,0 +1,12 @@
+### Variáveis de ambiente
+@base_url = http://localhost:3333
+
+
+### POST Primeira rota
+POST {{base_url}}/settings
+Content-Type: application/json
+
+{
+  "chat": true,
+  "usernames": "admin"
+}
