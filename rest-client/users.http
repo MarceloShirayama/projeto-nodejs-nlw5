@@ -1,7 +1,0 @@
-### Variáveis de ambiente
-@base_url = http://localhost:3333
-
-
-### POST Primeira rota
-POST {{base_url}}/
-Content-Type: application/json

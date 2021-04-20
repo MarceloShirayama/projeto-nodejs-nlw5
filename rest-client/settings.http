@@ -2,11 +2,20 @@
 @base_url = http://localhost:3333
 
 
-### POST Settings
+### POST Settings add username admin
 POST {{base_url}}/settings
 Content-Type: application/json
 
 {
   "chat": true,
   "username": "admin"
+}
+
+### POST Settings add username marcelo
+POST {{base_url}}/settings
+Content-Type: application/json
+
+{
+  "chat": true,
+  "username": "marcelo"
 }
