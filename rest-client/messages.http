@@ -7,7 +7,7 @@ POST {{base_url}}/{{path}}
 Content-Type: application/json
 
 {
-  "user_id": "4b04e06c-ab1f-4d0d-bc6c-6504ab9cacc8",
+  "user_id": "84eaf15e-2f72-4655-9bab-c8dc31d434d4",
   "text": "Olá eu preciso de ajuda"
 }
 
@@ -16,12 +16,12 @@ POST {{base_url}}/{{path}}
 Content-Type: application/json
 
 {
-  "user_id": "4b04e06c-ab1f-4d0d-bc6c-6504ab9cacc8",
+  "user_id": "84eaf15e-2f72-4655-9bab-c8dc31d434d4",
   "text": "Olá tudo bem? O que está acontecendo?",
   "admin_id": "0daa8f84-b549-4e25-8034-56d2f4c11ef4"
 }
 
 ### list messages by user id
-@id = 4b04e06c-ab1f-4d0d-bc6c-6504ab9cacc8
+@id = 84eaf15e-2f72-4655-9bab-c8dc31d434d4	
 GET {{base_url}}/{{path}}/{{id}}
 Content-Type: application/json

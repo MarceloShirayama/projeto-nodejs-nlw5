@@ -48,3 +48,11 @@ Content-Type: application/json
   "chat": true,
   "username": "pedro"
 }
+
+### update settings
+PUT {{base_url}}/settings/admin
+Content-Type: application/json
+
+{
+  "chat": false
+}
